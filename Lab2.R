@@ -9,7 +9,7 @@ library(dplyr)
 
 # =============================================================================
 
-total_pop_2020 <- read.csv("/Users/audreylillie/Desktop/spatialdemograph/R_Projects/Lab2/nhgis0001_csv/nhgis0001_ds258_2020_state.csv")
+total_pop_2020 <- read.csv("/Users/audreylillie/Desktop/R_Projects/Lab2/nhgis0001_csv/nhgis0001_ds258_2020_state.csv")
 #visualize
 total_pop_2020_bar <- ggplot() + geom_col(data = total_pop_2020, 
                     aes(x = reorder(STATE, U7H001), 
